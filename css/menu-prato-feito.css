@@ -1,0 +1,89 @@
+.menu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+}
+
+.escolhas{
+    width: 40%;
+    height: 20%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    background: #F53B50;
+    color: white;
+    transition: ease-in-out 550ms;
+}
+
+.escolhas:hover{
+    height: 33%;
+    padding-top: 90px;
+}
+
+
+.menu-prato img{
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;   
+}
+
+.escolhas .menu-prato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.escolhas:hover .menu-prato{
+    margin-top: 50px;
+}
+
+.prato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    margin-bottom: 250px;
+    visibility: hidden;
+    transition: ease-in-out 50ms;
+}
+
+.escolhas:hover .prato{
+    visibility: visible;
+}
+
+.prato p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.prato .kcal-color{
+    color: #FDD051;
+}
+
+.prato .valor-color{
+    color: #C9D765;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.fa-chevron-circle-right{
+    visibility: hidden;
+    
+}
+
+.escolhas:hover .fa-chevron-circle-right{
+    visibility: visible;
+}
